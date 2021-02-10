@@ -23,7 +23,7 @@ public final class Constants {
     public static final String PREF_MOBILE_DATA_WARNING = "pref_mobile_data_warning";
     public static final String PREF_NEEDS_REBOOT_ID = "needs_reboot_id";
     public static final String UNCRYPT_FILE_EXT = ".uncrypt";
-    public static final String PROP_BUILD_DATE = "org.evolution.build_date_utc";
+    public static final String PROP_BUILD_DATE = "org.pixelexperience.build_date_utc";
     public static final String PROP_RECOVERY_UPDATE = "persist.sys.recovery_update";
     public static final String PREF_INSTALL_OLD_TIMESTAMP = "install_old_timestamp";
     public static final String PREF_INSTALL_NEW_TIMESTAMP = "install_new_timestamp";
@@ -36,11 +36,11 @@ public final class Constants {
     static final int AUTO_UPDATES_CHECK_INTERVAL_WEEKLY = 2;
     static final int AUTO_UPDATES_CHECK_INTERVAL_MONTHLY = 3;
     static final String PROP_AB_DEVICE = "ro.build.ab_update";
-    static final String PROP_DEVICE = "org.evolution.device";
-    static final String PROP_BUILD_VERSION = "org.evolution.version.prop";
-    static final String PROP_VERSION_CODE = "org.evolution.ota.version_code";
-    static final String OTA_URL = "https://raw.githubusercontent.com/Evolution-X-Devices/official_devices/master/builds/%s.json";
-    static final String DOWNLOAD_WEBPAGE_URL = "https://raw.githubusercontent.com/Evolution-X-Devices/official_devices/master/changelogs/%s/%s.txt";
+    static final String PROP_DEVICE = "org.pixelexperience.device";
+    static final String PROP_BUILD_VERSION = "org.pex.version.prop";
+    static final String PROP_VERSION_CODE = "org.pex.ota.version_code";
+    static final String OTA_URL = "https://raw.githubusercontent.com/PixelExtended/OTA/eleven/builds/OTA.json";
+    static final String DOWNLOAD_WEBPAGE_URL = "https://raw.githubusercontent.com/PixelExtended/OTA/eleven/changelogs/ginkgo/PixelExtended_ginkgo-11.0-20210128-1130-OFFICIAL.zip.txt";
     public static final String DOWNLOAD_PATH = "/data/system_updates/";
     static final String EXPORT_PATH = "EvolutionX-Updates/";
     public static  String fileName = "";
