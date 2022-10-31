@@ -39,8 +39,8 @@ public final class Constants {
     static final String PROP_DEVICE = "org.pixelexperience.device";
     static final String PROP_BUILD_VERSION = "org.pixelexperience.version";
     static final String PROP_VERSION_CODE = "org.pex.ota.version_code";
-    static final String OTA_URL = "https://raw.githubusercontent.com/PixelExtended/OTA/snow/builds/%s.json";
-    static final String DOWNLOAD_WEBPAGE_URL = "https://raw.githubusercontent.com/PixelExtended/OTA/snow/changelogs//%s/%s.txt";
+    static final String OTA_URL = "https://raw.githubusercontent.com/PixelExtended/OTA/trece/builds/%s.json";
+    static final String DOWNLOAD_WEBPAGE_URL = "https://raw.githubusercontent.com/PixelExtended/OTA/trece/changelogs//%s/%s.txt";
     public static final String DOWNLOAD_PATH = "/data/system_updates/";
     static final String EXPORT_PATH = "EvolutionX-Updates/";
     public static  String fileName = "";
