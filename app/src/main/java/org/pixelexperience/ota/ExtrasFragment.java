@@ -23,6 +23,7 @@ import java.util.ArrayList;
 public class ExtrasFragment extends Fragment {
 
     private View mainView;
+    private ExtraCardView devCard;
     private LinearLayout maintainersLayout;
     private ExtraCardView donateCard;
     private ExtraCardView forumCard;
@@ -33,6 +34,7 @@ public class ExtrasFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         mainView = inflater.inflate(R.layout.extras_fragment, container, false);
+        devCard = mainView.findViewById(R.id.dev_card);
         maintainersLayout = mainView.findViewById(R.id.maintainers);
         donateCard = mainView.findViewById(R.id.donate_card);
         forumCard = mainView.findViewById(R.id.forum_card);
@@ -53,6 +55,20 @@ public class ExtrasFragment extends Fragment {
             mainView.setVisibility(View.GONE);
             return;
         }
+
+		   // Dev info
+                devCard.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    String url = "http://heisinbug.tech";
+                    Intent i = new Intent(Intent.ACTION_VIEW);
+                    i.setData(Uri.parse(url));
+                    startActivity(i);
+                }
+            });
+
+                   devCard.setClickable(true);
+                    devCard.setVisibility(View.VISIBLE);
 
         ArrayList<MaintainerInfo> maintainers = update.getMaintainers();
         if (maintainers != null && !maintainers.isEmpty()) {

@@ -104,6 +104,8 @@
     <string name="checkbox_mobile_data_warning">Do not show again</string>
 
     <!-- Info section -->
+    <string name="dev_info_title">Pixel Extended By</string>
+    <string name="dev_info_summary">Aryan Gupta</string>
     <string name="maintainer_info_title">Maintainer</string>
     <string name="donate_info_title">Donate</string>
     <string name="donate_info_summary">Support the development</string>

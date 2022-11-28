@@ -12,6 +12,24 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <org.pixelexperience.ota.ExtraCardView
+            android:id="@+id/dev_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:visibility="gone"
+            app:cardBackgroundColor="@color/cardview_background"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="2dp"
+            app:contentPaddingBottom="16dp"
+            app:contentPaddingLeft="16dp"
+            app:contentPaddingRight="16dp"
+            app:contentPaddingTop="16dp"
+            extra_card_view:image="@drawable/ic_maintainers_icon"
+            extra_card_view:summary="@string/dev_info_summary"
+            extra_card_view:title="@string/dev_info_title" />
+
         <LinearLayout
             android:id="@+id/maintainers"
             android:layout_width="match_parent"
